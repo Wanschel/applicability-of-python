@@ -8,7 +8,7 @@ while True:
     try:
         num = int(float(input("Pick a number between 0 and 100!\n"))) #converts floating point input to integer
     except ValueError: #gives the opportunity to try again (to input) if something not accepted is entered
-        print("Input invalid. Please enter a number: \n")
+        print("Input invalid.\n")
         continue
         
     if num == rand:
